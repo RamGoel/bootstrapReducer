@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="codes.js"></script>
+    <style>
+      h1,
+      h2 {
+        font-family: verdana;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+      .container button {
+        padding: 5px;
+        background-color: black;
+        color: white;
+        margin: 10px 0px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app" class="container">
+      <h1 class="">Bootstrap Reducer</h1>
+      <textarea
+        name=""
+        id="codeArea"
+        placeholder="Paste Code Here"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <button onclick="handleClick()">Check bootstrap</button>
+    </div>
+
+    <script>
+      function handleClick() {
+        const value = bootstrap.keys;
+        const arr = value.split(' ');
+
+        console.log(arr);
+      }
+      
+    </script>
+  </body>
+</html>
