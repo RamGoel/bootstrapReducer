@@ -1,4 +1,4 @@
-# BootStrap Reducer
+# LessTrap - BootStrap Reducer
 
 This application gives you only that much bootstrap that is used in your file, just paste the file content and get the minified bootstrap.
 
